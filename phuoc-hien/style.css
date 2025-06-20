@@ -366,15 +366,22 @@
     font-size: .7em;
 }
 
+.img-add{
+    width: 50%;
+    margin-top: 20px;
+}
+
 .lb-add{
-    font-family: var(--font-pinyon);
-    font-size: 2.3em;
+    font-family: var(--font-lora);
+    font-size: 1em;
+    margin-top: 10px;
 }
 
 
 .add2{
     font-family: var(--font-lora);
-    font-size: .5em;
+    font-size: .6em;
+    margin-top: 10px;
 }
 
 .img-map{
@@ -455,6 +462,7 @@
     font-size: .5em;
     letter-spacing: .5px;
     word-spacing: .5px;
+    text-transform: uppercase;
 }
 
 .box-dresscon, .box-nam, .box-nu{
@@ -465,6 +473,7 @@
 }
 .box-dresscon{
     margin: 50px 0;
+    padding:  0 40px;
 }
 
 .box-nam, .color-nam{
@@ -487,10 +496,9 @@
     padding: 2px 0;
 }
 
-.color{
+.box-color{
     display: flex;
 }
-
 .color-nam{
     width: 100%;
     padding: 15px 10px;
@@ -499,7 +507,7 @@
 }
 
 .img-color{
-    width: 40%;
+    width: 55%;
     margin-bottom: 5px;
 }
 
@@ -541,15 +549,18 @@
 /* Các phần tử màu sắc */
 .color {
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
 }
 
 .lb-color{
     font-size: .7em;
 }
 
+.img-color2{
+    width: 15%;
+}
 
 .box-image1{
     display: flex;
@@ -977,6 +988,9 @@ input::placeholder, textarea::placeholder{
         width: 90%;
         padding: 10px;
         font-size: .75em;
+    }
+    .img-color{
+        width: 35%;
     }
   }
   
